@@ -1,16 +1,17 @@
 package vn.impl.barcode.mainapp.fragments.forgotpassword
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProviders
 import vn.impl.barcode.R
 
 class ForgotPassFragment : Fragment() {
 
     companion object {
+        val TAG: String = ForgotPassFragment::class.java.simpleName
         fun newInstance() = ForgotPassFragment()
     }
 
