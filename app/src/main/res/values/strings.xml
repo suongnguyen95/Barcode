@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Barcode</string>
+    <string name="scan_barcode">Scan barcode</string>
+    <string name="email">Email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="user_name">User name</string>
+    <string name="login">Login</string>
+    <string name="id">ID:</string>
+    <string name="starsss">*********************</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainapp.fragments.login.LoginFragment">
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_login_bottom"
+        android:layout_marginTop="@dimen/margin_top_login"
+        android:layout_marginEnd="@dimen/margin_login_bottom"
+        android:hint="@string/user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_login_bottom"
+        android:layout_marginTop="@dimen/margin_botton_reset"
+        android:layout_marginEnd="@dimen/margin_login_bottom"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_username"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_login_bottom"
+        android:layout_marginTop="@dimen/margin_botton_reset"
+        android:layout_marginEnd="@dimen/margin_login_bottom"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/ed_password" />
+    <Button
+        android:id="@+id/btn_resetpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_login_bottom"
+        android:layout_marginTop="@dimen/margin_botton_reset"
+        android:layout_marginEnd="@dimen/margin_login_bottom"
+        android:text="Forgot password"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/btn_login" />
+</androidx.constraintlayout.widget.ConstraintLayout>
